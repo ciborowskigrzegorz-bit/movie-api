@@ -11,6 +11,25 @@ Projekt REST API oparty na FastAPI do zarządzania informacjami o filmach. Zawie
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [Uvicorn](https://www.uvicorn.org/)
 
+# Movie API Project
+
+## Aktualizacja
+
+Projekt został zaktualizowany do:
+
+- **SQLAlchemy 2.0** — nowy sposób deklaracji modeli i zarządzania bazą
+- **Pydantic v2** — zmiany w konfiguracji modeli (np. `ConfigDict` zamiast klasy `Config`)
+
+Dzięki temu kod jest zgodny z najnowszymi wersjami bibliotek i łatwiejszy w utrzymaniu.
+
+---
+
+## Wymagania
+
+- Python 3.11+
+- PostgreSQL
+- Pozostałe zależności z `requirements.txt`
+
 ---
 
 ## 📦 Instalacja lokalna
