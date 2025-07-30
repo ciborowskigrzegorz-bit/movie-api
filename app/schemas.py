@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 class MovieBase(BaseModel):
     title: str
@@ -10,5 +10,4 @@ class MovieCreate(MovieBase):
 
 class Movie(MovieBase):
     id: int
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
