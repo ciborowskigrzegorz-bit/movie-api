@@ -109,13 +109,20 @@ movie-api/
 ```
 
 ---
+## 🌍 Demo online
+
+Aplikacja dostępna publicznie na:
+
+🔗 https://movie-api.onrender.com
+
+---
 
 ## 📝 TODO / Plany rozwoju
 
 - [ ] Dodanie autoryzacji JWT
 - [ ] Filtrowanie i paginacja wyników
 - [ ] Obsługa recenzji filmów
-- [ ] Deployment na Render lub Vercel
+- [x] Deployment na Render lub Vercel
 
 ---
 
