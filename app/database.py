@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
-SECRET_KEY=supersecretkey
+SECRET_KEY = "supersecretkey"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
