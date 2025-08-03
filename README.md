@@ -113,7 +113,7 @@ movie-api/
 
 Aplikacja dostępna publicznie na:
 
-🔗 https://movie-api.onrender.com
+🔗 https://movie-api-amrg.onrender.com
 
 ---
 
